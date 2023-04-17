@@ -1,0 +1,26 @@
+
+
+============================== 2023-04-16 12:02:39.996995 | c4624b59-3a82-411a-9350-52d5238cf7c0 ==============================
+[0m12:02:39.996995 [info ] [MainThread]: Running with dbt=1.4.5
+[0m12:02:39.998841 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/junye/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'chris_dbt_demo_postgres', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m12:02:39.999040 [debug] [MainThread]: Tracking: tracking
+[0m12:02:40.022995 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x111e20a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121b6dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11245f8d0>]}
+[0m12:02:40.024910 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/dbt/include/starter_project
+[0m12:02:54.137508 [info ] [MainThread]: 
+Your new dbt project "chris_dbt_demo_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m12:02:54.137967 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1121b6dd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11089db90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112450990>]}
+[0m12:02:54.138321 [debug] [MainThread]: Flushing usage events
